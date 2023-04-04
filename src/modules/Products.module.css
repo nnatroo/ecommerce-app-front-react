@@ -1,0 +1,6 @@
+.products-container {
+    display: flex;
+    gap: 4rem;
+    padding-inline: 10rem;
+    padding-top: 3rem;
+}

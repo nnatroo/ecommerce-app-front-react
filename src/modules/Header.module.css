@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #19A7CE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10rem;
+    color: #F6F1F1;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons-container button {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    border: none;
+    font-family: Arial;
+    color: #146C94;
+    font-size: 20px;
+    background: #F6F1F1;
+    padding: 14px 22px 14px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttons-container button:hover {
+    text-decoration: none;
+    scale: 1.05;
+  }
+
